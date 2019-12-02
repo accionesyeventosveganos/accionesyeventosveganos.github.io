@@ -66,19 +66,19 @@
                     <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images/intense/logo-dark.png' alt=''/></a></div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                    <li class="active"><a href="index.html"><span>Inicio</span></a></li>
-                    <li><a href="eventos.html"><span class="text-middle">Eventos</span></a>
+                      <li class="active"><a href="index.html"><span>Inicio</span></a></li>
+                      <li><a href="eventos.html"><span class="text-middle">Eventos</span></a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="subscribe.html"><span class="text-middle">Suscripción</span></a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#"><span>Políticas</span></a>
                       <ul class="rd-navbar-dropdown">
-                        <li><a href="subscribe.html"><span class="text-middle">Suscripción</span></a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#"><span>Políticas</span></a>
-                      <ul class="rd-navbar-dropdown">
-                        <li><a href="cookies.html"><span class="text-middle">Política de Cookies</span></a></li>
+                        <li><a href="cookies.html"><span class="text-middle">Cookies</span></a></li>
                         <li><a href="legal.html"><span>Aviso Legal</span></a></li>
-                        <li><a href="privacy.html"><span>Política de Privacidad</span></a></li>
+                        <li><a href="privacy.html"><span>Privacidad</span></a></li>
                       </ul></li>
-                  </ul>
+                    </ul>
                   </div>
                 </div>
 
@@ -89,18 +89,28 @@
       </header>
       <section class="section novi-background section-98 section-sm-124 bg-gray-darkest context-dark">
         <div class="container-fluid">
-          <h1>Inicio</h1>
+          <h1>Subscripción</h1>
           <hr class="divider bg-mantis">
         </div>
         <div class="card-body ">
-          <p class="card-text text-justify mb-6">
-            Te damos la bienvenida a nuestra recién estrenada web. Iremos añadiendo más secciones así que vuelve con frecuencia. Esta web ha sido creada
-            por una comunidad informal de gente vegana y solidaria, que dedica parte de su tiempo libre a organizar eventos y acciones para promover, difundir, y defender el veganismo
-            y todo lo relativo.
-            <br><br>Los eventos y acciones van desde recaudaciones para organizaciones afines pasando por acciones de protesta y difusión del veganismo y relacionados.
-            <br><br>Como acabamos de estrenar esta web, de momento no disponemos de redes sociales, aunque esperamos tenerlas disponibles en breve. De momento, mientras llegan las
-            redes sociales, puedes contactarnos en la siguiente dirección de mail: accionesyeventosveganos@gmail.com
-          </p>
+          <div class="container">
+            <div class="row justify-content-sm-center justify-content-sm-center">
+              <div class="col-md-8 col-lg-7 col-xl-6">
+                <p>Suscríbete a nuestra web para estar al día de los eventos que vayamos publicando.
+                  La suscripción la gestionamos a través de Mailchimp, y la información se gestiona en dicha plataforma, por lo tanto,
+                  no almacenamos ningún dato tuyo desde esta web.</p>
+                <!-- MailChimp subscribe-->
+                <form class="rd-mailform mailchimp-mailform" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="https://github.us4.list-manage.com/subscribe/post?u=2669576c506430c715d58b4ec&amp;id=c7303c70f1">
+                  <div class="form-group">
+                    <div class="input-group input-group-sm"><span class="input-group-prepend"><span class="input-group-text input-group-icon input-group-addon-inverse"><span class="novi-icon mdi mdi-email"></span></span></span>
+                      <input class="form-control" placeholder="E-Mail" type="email" name="email" data-constraints="@Email @Required"><span class="input-group-append">
+                              <button class="btn btn-sm btn-primary" type="submit">Suscribirme</button></span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Page Footer-->
